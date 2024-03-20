@@ -33,6 +33,6 @@ Route::get('/biodata', function () {
     return view('biodata');
 });
 
-Route::get('/tamu', function () {
-    return view('tamu');
+Route::get('/bukutamu', function () {
+    return view('bukutamu');
 });
